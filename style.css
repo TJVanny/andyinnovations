@@ -29,6 +29,12 @@ img {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
+	justify-content: center;
+}
+
+.gallery img {
+	height: 286px;
+	width: 286px;
 }
 
 .boxg {
@@ -169,10 +175,6 @@ h1 {
 
 #block5 {
   text-align:center;
-}
-
-.gallery {
-  justify-content: center;
 }
 
 .block6 h1 {

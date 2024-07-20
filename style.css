@@ -20,10 +20,6 @@ img {
   width: 50px;
 }
 
-.2box img {
-  height: 50px;
-  width: 50px;
-}
 
 .gallery {
   width: 100%;
@@ -171,6 +167,15 @@ h1 {
   text-align:center;
 }
 
+#block5 img {
+  height: 286px;
+  width: 286px;
+}
+
+.gallery {
+  justify-content: center;
+}
+
 .block6 h1 {
   margin-left: 100px;
   text-align: left;
@@ -180,5 +185,4 @@ h1 {
   margin-left: 100px;
   text-align: left;
 }
-
 

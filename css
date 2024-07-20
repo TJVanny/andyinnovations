@@ -1,0 +1,188 @@
+
+* {
+  text-decoration: none;
+  color: #848486;
+}
+
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  height: 286;
+  width: 286;
+}
+
+.box img {
+  height: 50px;
+  width: 50px;
+}
+
+.2box img {
+  height: 50px;
+  width: 50px;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.boxg {
+  flex-basis: 20%;
+  width: 100%;
+  padding: 10px;
+  margin: 8px;
+  box-shadow: 1px 1px 15px 1px black;
+}
+
+@media only screen and (max-width: 300px) {
+  .box {
+    flex-basis: 100%;
+  }
+}
+
+body {
+  background-color: #101623;
+  color: #848486;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+nav {
+  text-decoration: none;
+  display: inline-flex;
+}
+
+nav p {
+  padding: 10px;
+}
+
+.block1 {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.left {
+	display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  align-content: center;
+}
+
+.left h1 {
+  font-weight: 400;
+}
+
+.left h3 {
+  font-weight: 200;
+}
+
+.right {
+	margin: auto;
+}
+
+
+.block1 h3 {
+  margin-top: 0;
+}
+
+.b1 {
+  width: 124px;
+  height: 28px;
+  padding: 0px 10px 0px 10px;
+  background: #29323D;
+  color: #FFFFFF;
+  border-color: #29323D;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 14px 14px 14px 14px;
+  font-weight: 400px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+.right img {
+  width: 300px;
+  height: 300px;
+  background: #EDF0F4;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.block2 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.block3 {
+  margin-bottom: 250px;
+}
+
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box1 {
+  text-align: center;
+  width: 240px;
+  height: 54px;
+}
+
+.box1 p {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.box1 h2 {
+  margin-bottom: 0;
+  color: #6E6E6F;
+}
+
+#block4 {
+  margin-bottom: 200px;
+}
+
+#block5 {
+  text-align:center;
+}
+
+.gallery {
+  justify-content: center;
+}
+
+.block6 h1 {
+  margin-left: 100px;
+  text-align: left;
+}
+
+#info {
+  margin-left: 100px;
+  text-align: left;
+}
+
+

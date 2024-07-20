@@ -29,12 +29,6 @@ img {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-	justify-content: center;
-}
-
-.image img {
-	height: 286px;
-	width: 286px;
 }
 
 .boxg {
